@@ -1,0 +1,16 @@
+# Imakefile for simplech
+# Don Okt 21 12:38:50 CEST 1999
+
+#     CDEBUGFLAGS = -g -Wall -O3
+      CDEBUGFLAGS = -Wall -O3
+               CC = gcc
+
+           PREFIX = /usr/local
+           BINDIR = $(PREFIX)/bin
+           MANDIR = $(PREFIX)/man/man6
+        MANSUFFIX = 6
+
+             SRCS = simplech.c
+             OBJS = simplech.o
+
+SimpleProgramTarget(simplech)

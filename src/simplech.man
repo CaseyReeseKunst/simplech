@@ -1,0 +1,31 @@
+.TH "simplech" "6" "8 Feb 1999" "Games" "Games"
+
+
+.SH NAME
+simplech \- lets you play checkers against the computer.
+
+
+.SH SYNOPSIS
+.B simplech
+
+
+.SH DESCRIPTION
+.I simplech
+first asks, whether you want to play the black or the white stones and how
+long the program may calculate its moves. It then starts a game; When its
+your move, you may either enter a letter from the list, or \fIz\fP to
+abort the current game or \fIt\fP to run some benchmarks. At the end of a
+game you are asked to play again or to quit.
+.PP
+The letters used to draw the board are: \fB-\fP for an empty node, \fBb\fP
+for a black man, \fBB\fP a black king, \fBw\fP a white man, \fBW\fP a
+white king.
+
+
+.SH SEE ALSO
+.BR xcheckers (1)
+.BR http://ourworld.compuserve.com/homepages/fierz/checkers.htm
+
+
+.SH COPYRIGHT
+Copyright \(co 1998 Martin Fierz;
