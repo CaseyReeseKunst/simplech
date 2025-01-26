@@ -1,12 +1,13 @@
 # simplech
 This is a fork of simplech, a checkers engine, from the CheckerBoard software package maintained by Ed Gilbert at https://github.com/eygilbert/CheckerBoard It was written by Martin Fierz in C.
 
-----------> name: simple checkers  
-----------> author: martin fierz  
-----------> purpose: platform independent checkers engine  
-----------> version: 1.11  
-----------> date: 8th october 98  
-----------> description: checkers.c contains a simple but fast  
+name: simple checkers  
+author: martin fierz  
+purpose: platform independent checkers engine  
+version: 1.11  
+date: 8th october 98  
+
+description: checkers.c contains a simple but fast  
 checkers engine and a simple interface to this engine. checkers.c
 contains three main parts: interface, search and move
 generation. these parts are separated in the code. if you want to
