@@ -1,5 +1,9 @@
 # simplech
-This is a fork of simplech, a checkers engine, from the CheckerBoard software package maintained by Ed Gilbert at https://github.com/eygilbert/CheckerBoard It was written by Martin Fierz in C.
+This is a fork of simplech, a checkers engine, from the CheckerBoard software
+package maintained by Ed Gilbert at https://github.com/eygilbert/CheckerBoard 
+It was written by Martin Fierz in C.
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 
 name: simple checkers  
 author: martin fierz  
@@ -7,15 +11,15 @@ purpose: platform independent checkers engine
 version: 1.11  
 date: 8th october 98  
 
-description: checkers.c contains a simple but fast  
-checkers engine and a simple interface to this engine. checkers.c
-contains three main parts: interface, search and move
-generation. these parts are separated in the code. if you want to
-improve on the play of checkers, you will mainly have to improve on
-the evaluation function; this version does nothing but count
-material.  even though it only counts pieces, this checkers engine
-will blow away all shareware checkers programs you will find on the
-internet, with the exception of blitz54, which is written for DOS.
+description: checkers.c contains a simple but fast checkers engine 
+and a simple interface to this engine. checkers.c contains three 
+main parts: interface, search and move generation. these parts are 
+separated in the code. if you want to improve on the play of checkers, 
+you will mainly have to improve on the evaluation function; this 
+version does nothing but count material.  even though it only counts 
+pieces, this checkers engine will blow away all shareware checkers 
+programs you will find on the internet, with the exception of blitz54, 
+which is written for DOS.
 
 board representation: the standard checkers notation is
 
